@@ -6,7 +6,7 @@ const osc = require('osc');
 // Initialize a UDP Server
 var udpPort = new osc.UDPPort({
   localAddress: "0.0.0.0",
-  localPort: process.env.UDP_PORT || 500,
+  localPort: process.env.UDP_PORT || 5000,
   metadata: true
 });
 
@@ -67,7 +67,7 @@ udpPort.open()
 
 console.log("Server running at http://localhost:%d", port);
 
-ComfyJS.Init("YOUR_TWITCH_ACCOUNT_NAME", process.env.OAUTH, "TWITCH_CHANNEL_TO_CONNECT_TO" );
+ComfyJS.Init("TWITCH_CHANNEL_TO_CONNECT_TO" );
 udpPort.on("ready", function () {
   console.log('Connection ready to jam')
 })
