@@ -1,0 +1,16 @@
+{
+    "name": "twitch-sonic-pi-messager",
+    "description": "",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Talk2MeGooseman",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "comfy.js": "^1.0.15",
+        "dotenv": "^8.2.0",
+        "osc": "^2.4.0"
+    }
+}
