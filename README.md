@@ -1,3 +1,5 @@
+Twitch + Sonic Pi Integration
+[![Sonic Pi With Twitch Youtube Video](http://img.youtube.com/vi/T-H9NZZQGyU/0.jpg)](http://www.youtube.com/watch?v=T-H9NZZQGyU)
 ## Requirements
 
 - Sonic Pi - The music synth goodness [http://sonic-pi.net/](http://sonic-pi.net/)
